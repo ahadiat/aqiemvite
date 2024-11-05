@@ -7,6 +7,7 @@ export default defineConfig({
   base: '/out/',
   build: {
     outDir: 'out', // Change this to 'out'
+    assetsDir: 'assets', // Ensure assets are placed correctly
   },
 })
 
